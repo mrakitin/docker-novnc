@@ -1,5 +1,7 @@
 # Dockerfile file for the VNC and noVNC servers
 
+Docker images: https://hub.docker.com/r/mrakitin/novnc.
+
 Inspired by https://github.com/AustralianSynchrotron.
 
 ## How to run:
