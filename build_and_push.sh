@@ -31,6 +31,10 @@ docker images | grep ${image_id}       >> $logfile 2>&1
 # docker tag ${image_id} $DOCKER_ID_USER/debian-with-miniconda:latest
 # docker tag ${image_id} $DOCKER_ID_USER/debian-with-miniconda:${timestamp}
 
+exit 1
+
+
+
 # Push the built images (requires running "docker login" before)
 docker push $DOCKER_ID_USER/${image_name}:latest       >> $logfile 2>&1
 docker push $DOCKER_ID_USER/${image_name}:${timestamp} >> $logfile 2>&1
