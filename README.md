@@ -1,4 +1,6 @@
-# Dockerfile file for the vncserver and noVNC server
+# Dockerfile file for the VNC and noVNC servers
+
+Inspired by https://github.com/AustralianSynchrotron.
 
 ## How to run:
 
